@@ -3,21 +3,69 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My First GitHub Page</title>
+  <title>Welcome Page</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background: linear-gradient(to right, #00c6ff, #0072ff);
-      color: white;
-      text-align: center;
-      padding: 50px;
+      margin: 0;
+      padding: 0;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: #f4f7fc;
+      color: #333;
     }
-    h1 { font-size: 3rem; }
-    p { font-size: 1.2rem; }
+    header {
+      background: #222;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    section {
+      padding: 40px;
+      text-align: center;
+    }
+    .btn {
+      display: inline-block;
+      padding: 12px 24px;
+      margin-top: 20px;
+      background: #0072ff;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      background: #0056c7;
+    }
+    footer {
+      background: #222;
+      color: #bbb;
+      text-align: center;
+      padding: 15px;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+    }
   </style>
 </head>
 <body>
-  <h1>Hello GitHub 👋</h1>
-  <p>This is my first HTML design hosted on GitHub!</p>
+  <header>
+    <h1>🚀 Welcome to My GitHub Page</h1>
+    <p>Learning Git & GitHub with HTML designs</p>
+  </header>
+
+  <section>
+    <h2>Hello World 👋</h2>
+    <p>This page was updated directly from GitHub!</p>
+    <a href="#" class="btn">Explore More</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 My GitHub Practice | Built with ❤️</p>
+  </footer>
 </body>
 </html>
